@@ -4,11 +4,11 @@ info:
   version: 1.0.0
   description: An API for managing and retrieving eclectic job titles.
 servers:
-  - url: http://localhost:3000
+  - url: https://jobs.local
     description: Development server
 
 paths:
-  /:
+  /get-job:
     get:
       summary: Get a Random Job
       description: Retrieves a random job from the eclectic jobs list.
